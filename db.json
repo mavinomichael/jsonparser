@@ -1,0 +1,76 @@
+{
+  "Labels": [
+    {
+      "Timestamp": 0,
+      "Label": {
+        "Instances": [],
+        "Confidence": 60.51791763305664,
+        "Parents": [],
+        "Name": "Electronics"
+      }
+    },
+    {
+      "Timestamp": 0,
+      "Label": {
+        "Instances": [],
+        "Confidence": 99.53411102294922,
+        "Parents": [],
+        "Name": "Human"
+      }
+    },
+    {
+      "Timestamp": 0,
+      "Label": {
+        "Instances": [
+          {
+            "BoundingBox": {
+              "Width": 0.11109819263219833,
+              "Top": 0.08098889887332916,
+              "Left": 0.8881205320358276,
+              "Height": 0.9073750972747803
+            },
+            "Confidence": 99.5831298828125
+          },
+          {
+            "BoundingBox": {
+              "Width": 0.1268676072359085,
+              "Top": 0.14018426835536957,
+              "Left": 0.0003282368124928324,
+              "Height": 0.7993982434272766
+            },
+            "Confidence": 99.46029663085938
+          }
+        ],
+        "Confidence": 99.53411102294922,
+        "Parents": [],
+        "Name": "Person"
+      }
+    },
+    
+    {
+      "Timestamp": 166,
+      "Label": {
+        "Instances": [],
+        "Confidence": 73.6471176147461,
+        "Parents": [
+          {
+            "Name": "Clothing"
+          }
+        ],
+        "Name": "Sleeve"
+      }
+    }
+
+  ],
+  "LabelModelVersion": "2.0",
+  "JobStatus": "SUCCEEDED",
+  "VideoMetadata": {
+    "Format": "QuickTime / MOV",
+    "FrameRate": 23.976024627685547,
+    "Codec": "h264",
+    "DurationMillis": 5005,
+    "FrameHeight": 674,
+    "FrameWidth": 1280
+  }
+}
+
